@@ -3,23 +3,25 @@ html, body{
 }
 
 body {
-    margin: 0;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    margin-right: 2vw;
     padding: 0;
-    min-height: 100vh;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 60%, #ffffff 100%);
+    background-color: #80D0C7;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 40%, #80D0C7 70%, #ffffff 100%);
+    background-size: 100vw 100vh;
     font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
 
-header{
+/* header{
     grid-column: 2/3;
-    margin-top: 50px;
     justify-content: center;
     text-align: center;
-}
+} */
 
 .welcome{
-    font-size: 150px;
+    font-size: 8vw;
     grid-area: 1 / 2 / 3 / 3;
 }
 
@@ -38,7 +40,7 @@ header{
     justify-content: center;
     text-align: center;
     align-items: top;
-    font-size: 10pt;
+    font-size: 0.5vw;
     grid-row: 1;
     grid-column: 1;
 }
@@ -70,13 +72,13 @@ a, a:link, a:visited{
 .buttonindex, .buttonindex:link, .buttonindex:visited {
     bottom: 0;
     right: 0;
-    width: 150px;
-    height: 50px;
+    width: 7vw;
+    height: 4vh;
     border:none;
     border:solid 2px rgb(255, 255, 255);
     border-radius: 5px;
     background: rgba(255, 255, 255,0);
-    font-size: 25px;
+    font-size: 1.25vw;
     font-weight: bold;
     text-decoration: none;
 }
@@ -88,7 +90,6 @@ a:hover, .buttonindex:hover{
 
 .WrapperIndex{
     display: grid;
-    margin-top: 50px;;
     grid-template-columns: 1fr 5fr 1fr;
     grid-gap: 1em;
     grid-row-gap: 1em;
@@ -96,7 +97,6 @@ a:hover, .buttonindex:hover{
     justify-content: center;
     height: 50vw;
     width: 100vw;
-    
 } 
 
 .emailgif{
