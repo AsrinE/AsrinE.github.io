@@ -14,11 +14,11 @@ body {
     color: white;
 }
 
-/* header{
+header{
     grid-column: 2/3;
     justify-content: center;
     text-align: center;
-} */
+}
 
 .welcome{
     font-size: 8vw;
