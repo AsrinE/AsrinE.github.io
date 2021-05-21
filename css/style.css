@@ -38,7 +38,7 @@ header{
     justify-content: center;
     text-align: center;
     align-items: top;
-    font-size: 12pt;
+    font-size: 10pt;
     grid-row: 1;
     grid-column: 1;
 }
@@ -94,8 +94,9 @@ a:hover, .buttonindex:hover{
     grid-row-gap: 1em;
     text-align: center;
     justify-content: center;
-    height: 60vw;
+    height: 50vw;
     width: 100vw;
+    
 } 
 
 .emailgif{
