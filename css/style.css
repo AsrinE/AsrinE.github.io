@@ -15,25 +15,25 @@ body {
 }
 
 header{
-    grid-column: 2/3;
+    grid-column: 4/8;
     justify-content: center;
     text-align: center;
 }
 
 .welcome{
     font-size: 8vw;
-    grid-area: 1 / 2 / 3 / 3;
+    grid-column: 2 / 9;
 }
 
 .title{
-    font-size: 40pt;
+    font-size: 1.25vw;
+    
 }
 
-.gif{
-    grid-column: 2;
-    grid-row: 1;
-    margin-left: auto;
-    margin-right: auto;
+.emailgif{
+    grid-column: 4/8;
+    grid-row: 3;
+    text-align: center;
 }
 
 .naam{
@@ -53,13 +53,13 @@ header{
 
 .about{
     grid-row: 1;
-    grid-column: 3;
+    grid-column: 10;
     align-items: bottom;
 }
 
 .contact{
     grid-row: 2;
-    grid-column: 3;
+    grid-column: 10;
     align-items: bottom;
 }
 
@@ -72,10 +72,10 @@ a, a:link, a:visited{
 .buttonindex, .buttonindex:link, .buttonindex:visited {
     bottom: 0;
     right: 0;
-    width: 7vw;
-    height: 4vh;
+    max-width: 100%;
+    max-height: 100%;
     border:none;
-    border:solid 2px rgb(255, 255, 255);
+    border:solid 0.25vh rgb(255, 255, 255);
     border-radius: 5px;
     background: rgba(255, 255, 255,0);
     font-size: 1.25vw;
@@ -95,28 +95,28 @@ a:hover, .buttonindex:hover{
     grid-row-gap: 1em;
     text-align: center;
     justify-content: center;
-    height: 50vw;
-    width: 100vw;
+    height: auto;
+    width: 100%;
 } 
 
 .emailgif{
     text-align: center;
-    grid-column: 2;
+    grid-column: 4/8;
 }
 
 .picture1{
     text-align: center;
-    grid-column: 2;
+    grid-column: 4/8;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 img{
-    max-width: 600px;
+    max-width: 30vw;
 }
 
 .text{
-    grid-column: 2;
+    grid-column: 4/8;
     text-align: center;
 }
 
@@ -128,8 +128,8 @@ img{
 
 .wrapper{
     display: grid;
-    grid-template-columns: 2fr 3fr 2fr; 
-    /* grid-template-columns: repeat(3,1fr); */
+    /* grid-template-columns: 3fr 4fr 3fr;  */
+    grid-template-columns: repeat(10,1fr);
     grid-gap: 1em;
     /* grid-auto-rows: 100px; */
     grid-auto-rows: minmax(50px, auto);
@@ -151,7 +151,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    grid-column: 3;
+    grid-column: 10;
 
 }
 
