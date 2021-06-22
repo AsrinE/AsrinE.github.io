@@ -198,7 +198,7 @@ img{
 }
 
 .nav input:checked ~ .menu {
-    width: 350px;
+    width: 300px;
 }
 
 .menu li {
